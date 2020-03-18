@@ -15,7 +15,7 @@ The information will be stored in the database after using the hashing method to
 
 ## Validation:
 
-in the validation part [Check it out]('src/helper/validation.js') :
+in the validation part (*Check it out' >>>>src/helper/validation.js'*):
 
 - Username must be longer than 2 characters and required
 - password must be longer than 6 characters and required
@@ -24,7 +24,7 @@ in the validation part [Check it out]('src/helper/validation.js') :
 
 ## Error Handling:
 
-in the project you will see how it handled as these following [Check it out]('src/controllers/errors.js'):
+in the project you will see how it handled as these following (Check it out >>> 'src/controllers/errors.js'):
 
 - If validation fails, return a message to the user, with status code 400
 - if the user tries to use an endpoint that doesn’t exist return a 404 page.
@@ -32,7 +32,7 @@ in the project you will see how it handled as these following [Check it out]('sr
 
 ## Testing:
 
-Test the endpoint for the following scenarios [You will find it here]('./tests'):
+Test the endpoint for the following scenarios (You will find it here >>>'./tests'):
 
 - The user uses a get request
 - The User signs up successfully
